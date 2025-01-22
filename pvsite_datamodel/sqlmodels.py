@@ -383,7 +383,7 @@ class ForecastValueSQL(Base, CreatedMixin):
     # TODO Set to nullable=False
     horizon_minutes = sa.Column(
         sa.Integer,
-        nullable=True,
+        nullable=False,
         comment="The time difference between the creation time of the forecast value "
         "and the start of the time interval it applies for",
     )
