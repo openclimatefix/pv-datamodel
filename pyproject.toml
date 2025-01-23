@@ -1,3 +1,9 @@
+[project]
+name = "pvsite-datamodel"
+version = "1.0.48"
+description = "SDK interacting with the PVSite database"
+readme = "README.md"
+license = {text = "MIT"}
 
 [tool.poetry]
 name = "pvsite-datamodel"
